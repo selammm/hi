@@ -1,0 +1,445 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap');
+
+body{
+    background-color: #fff;
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+}
+
+#logo{
+    margin: 25px 0 0 35px;
+}
+
+.header{
+    display: flex;
+}
+
+.header ul{
+    align-items: flex-end;
+    margin: 25px 0 0 60%;
+    font-family: 'Raleway';
+    font-weight: 400;
+    color: hsl(243, 87%, 12%); 
+}
+
+.header ul li:hover{
+    color: hsl(224, 93%, 58%);
+    transition: 0.5s;
+}
+
+.header ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px 0 0;
+}
+
+.first-description{
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: 'Open Sans';
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    margin: 105px 0 0 35px;
+    color: hsl(243, 87%, 12%); 
+}
+
+#first-image{
+    width: 700px;
+    height: 400px;
+    margin: 45px 50px 150px 0;
+}
+
+#second-image{ 
+    width: 700px;
+    height: 400px;
+    margin: 85px 50px 0 0;
+}
+
+button{
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    padding: 10px 45px;
+    border-radius: 4px;
+    color: hsl(240, 75%, 98%);
+    font-family: 'Raleway';
+    font-weight: 550;
+    margin: 15px 0 0 25px;
+}
+
+button:hover{
+    background-color: #1a8cff;
+    transition: 0.5s;
+}
+
+.first-description input{
+    padding: 8px 60px;
+    margin: 15px 0 0 0;
+}
+
+.lolo{
+    display: flex;
+    flex-direction: row-reverse
+}
+
+.description-1{
+    margin: 70px 0 0 35px;   
+    color: hsl(243, 87%, 12%); 
+    font-family: 'Raleway';
+    padding-right: 20px;    
+}
+
+.description-1 h1{
+    font-size: 45px;
+}
+
+.description-1 p{
+    font-size: 18px;
+}
+
+.description-1 a{
+    text-decoration:hsl(170, 45%, 43%);
+    color: hsl(170, 45%, 43%);
+}
+
+.paragraph{
+    margin: 15px 0 30px 0;
+}
+
+p{
+    margin: 25px 0 0 0;
+}
+
+.features{
+    width: 400px;
+    height: 250px;
+    position:absolute;
+    margin: 50px 0 20px 0;
+    background-color: #e6e6e6;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 25px 0 0 0;
+}
+
+#quotes{
+    width: 30px;
+    height: 30px;
+    margin: 20px 0 0 20px;
+}
+
+#avatar{
+    border-radius: 100px;
+    width: 33px;
+    height: 33px;
+    margin: 50px 0 0 20px;
+}
+
+.features-personal{
+    display: flex;
+    flex-direction: row;
+}
+
+.personel-jobs{
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0 10px 15px;
+    line-height: 25px;
+}
+
+.features-p{
+    margin: 20px 0 0 20px;
+}
+
+.early-access{
+    position: relative;
+    background-color: hsl(238, 22%, 44%);
+    margin: 300px -8px 0 -10px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: hsl(240, 75%, 98%);
+    font-family: 'Raleway';
+    display: flex;
+}
+
+.access{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 35px;
+}
+
+.access h1{
+    font-size: 45px;
+}
+
+.access p{
+    font-size: 18px;
+}
+
+.early-access input{
+    padding: 10px 110px;
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0 0 175px;
+}
+
+.early-access button{
+    margin: 20px 0 0 175px; 
+}
+
+footer{
+    position:relative;
+    background-color: hsl(243, 87%, 12%);
+    margin: 0 -8px 0 -10px;
+    color: hsl(240, 75%, 98%);
+    height: 340px;
+}
+
+footer img{
+    filter: brightness(0) invert(1);
+    margin: 55px 0 0 55px;
+}
+
+.left-side{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans';
+}
+
+.left-side a{
+    text-decoration: none;
+    color: hsl(240, 75%, 98%);
+}
+
+.left-side a:hover{
+    color: hsl(224, 93%, 58%);
+    transition: 0.4s;
+}
+
+.left-side a img{
+    padding-right: 15px;
+    margin: 45px 0 0 55px;
+}
+
+.center-1{
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    margin: 0 55px 0 30%;
+}
+
+.center-1 a{
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Open Sans';
+    color: hsl(240, 75%, 98%);
+    padding: 0 0 0 15px;
+}
+
+.center-1 a:hover{
+    color: hsl(224, 93%, 58%);
+    transition: 0.4s;
+}
+
+.center-2{
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 55%;
+}
+
+.center-2 a{
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Open Sans';
+    color: hsl(240, 75%, 98%);
+    padding: 0 0 0 15px;
+}
+
+.center-2 a:hover{
+    color: hsl(224, 93%, 58%);
+    transition: 0.4s;
+}
+
+.right-side{
+    display: flex;
+    flex-direction: row;
+    margin: 38px 0 0 80%;
+}
+
+i{  
+    margin: 0 0 15px 0;
+    font-size: 32px;
+}
+
+.fa-twitter{
+    padding: 0 25px 0 25px;
+}
+
+i:hover{
+    color: hsl(224, 93%, 58%);
+    transition: 0.4s;
+}
+
+@media only screen and (max-width:404px){
+    body{
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    #logo{
+        margin: 12px 0 0 12px;
+        width: 100px;
+        height: 29px;
+        padding: 0;
+    }
+    .header ul{
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+    }
+    #first-image{
+        width: 320px;
+        height: 280px;
+        margin: 100px 0px 50px 15px;
+        padding: 0;
+    }
+    .first-description{
+        display: flex;
+        flex-direction: column;
+    }
+    .first-description h1{
+        font-size: 27px;
+    }
+    .first-description p{
+        font-size: 15px;
+        margin: 15px 28px;
+    }
+    .description{
+        margin: 10px 5px 20px -3px;
+        text-align: center;
+    }
+    .first-description button{
+        padding: 12px 113px;
+        margin: 10px 10px 0 10px;
+    }
+    .first-description input{
+        text-align: center;
+    }
+    .first-description form{
+        margin-left:6px;
+    }
+    .lolo{
+        display: flex;
+        flex-direction: column;
+        margin: 15px 12px 15px 12px;
+    }
+    .description-1{
+        margin-left: 12px;
+        text-align: center;
+    }
+    .description-1 a{
+        margin-left: 8%;
+    }
+    .features{
+        width: 330px;
+        height: 200px;
+    }
+    .features p{
+        font-size:14px;
+        font-weight: 500;
+        text-align: left;
+    }
+    .personal{
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .personel-jobs{       
+        margin: 28px 0 10px 15px; 
+        text-align: left;
+    }
+    .jobs{
+        font-size: 14px;
+        font-weight: 500;
+    }
+    #quotes{
+        width: 20px;
+        height: 20px;
+        margin: 12px 0 0 12px;
+    }
+    #avatar{
+        width: 28px;
+        height: 28px;
+        margin: 40px 0 0 20px;
+    }
+    #second-image{ 
+        width: 320px;
+        height: 280px;
+        margin: 85px 0px 0 12px;
+        padding: 0;
+    }
+    .early-access{
+        margin: 300px -0 0 0px;
+        min-width: 375px;
+        padding: 12px 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .access{
+        margin: 15px 0px 0 0px;
+    }
+    .access h1{
+        font-size: 25px;
+        text-align: center;
+        margin: 0;
+    }
+    .access p{
+        position: relative;
+        font-size: 13px;
+        text-align: center;
+        margin: 15px 25px 0 5px;
+    }
+    .early-access input{
+        margin: 20px 0 0 10%;
+        padding: 10px 60px;
+        text-align: center;
+    }
+    .early-access button{
+        margin: 5px 0 0 10%;
+        padding: 10px 112.2px;
+    }
+    footer{
+        position:relative;
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        min-width: 375px;
+        min-height: 700px;
+    }
+    .left-side{
+        margin-bottom:25px;
+        position: relative;
+    }
+    .left-side a img{
+        margin: 25px 0 0 55px;
+    }
+    .center-1{
+        position: relative;
+        margin-left: 15px;
+    }
+    .center-2{
+        position: relative;
+        margin-left: 15px;
+    }
+    .right-side{
+        position: relative;
+        text-align: center;
+        margin: 25px 50% 0 50%;
+    }
+}
